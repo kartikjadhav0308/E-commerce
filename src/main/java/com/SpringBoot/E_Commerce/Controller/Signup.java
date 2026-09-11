@@ -21,4 +21,12 @@ public class Signup {
                 signupService.add(signupDTO)
         );
     }
+
+    @PostMapping("/seller/add")
+    public ResponseEntity<String> signupSeller(@Valid @RequestBody SignupDTO signupDTO){
+        return ResponseEntity.ok(
+                signupService.addSeller(signupDTO)
+        );
+    }
+
 }

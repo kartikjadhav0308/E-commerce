@@ -13,7 +13,16 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/AuthUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/CustomerDetailService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Controller/Auth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/DTO/LoginRequestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/DTO/LoginResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Enumerate/RoleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/AuthUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/CustomerDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Configuration/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Signup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Signup.java" afterDir="false" />
@@ -21,6 +30,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/SignupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/SignupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Configuration/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Configuration/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Controller/Signup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Controller/Signup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Entity/Signup$SignupBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Entity/Signup$SignupBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Entity/Signup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Entity/Signup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Repository/SignupRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Repository/SignupRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Services/SignupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Services/SignupService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,24 +75,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ECommerceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;workingBranch&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/E-commerce&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ECommerceApplication.executor": "Run",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/E-commerce",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\E-Commerce" />

@@ -29,7 +29,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             return;
         }
 
-        String token = requestTokenHeader.split("Bearer ")[1];
+        String token = requestTokenHeader.substring(7).trim();
 
         String username = authUtil.getUsernameFromToken(token);
 
@@ -40,6 +40,9 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             UsernamePasswordAuthenticationToken token1 = new UsernamePasswordAuthenticationToken(user,null,user.getAuthorities());
 
             SecurityContextHolder.getContext().setAuthentication(token1);
+
         }
+
+        filterChain.doFilter(request, response);
     }
 }

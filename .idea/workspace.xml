@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="052305b1-172b-4378-8015-a8b90b1675b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/LoginRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/LoginResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Enumerate/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/AuthUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/CustomerDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/ProductResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/DTO/UpdateProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Repository/CategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Repository/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Configuration/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Entity/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Repository/SignupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Repository/SignupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Controller/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/SignupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringBoot/E_Commerce/Services/SignupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/JwtAuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Services/SignupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringBoot/E_Commerce/Services/SignupService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="com.intellij.jpb.JpaRepository" />
+        <option value="HTTP Request" />
+        <option value="HTTP Private Environment File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,6 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -77,6 +90,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.SpringBoot.E_Commerce.Services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\E-Commerce" />
     </key>

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/signup")
 @RequiredArgsConstructor
-public class Signup {
+public class SignupController {
     private final SignupService signupService;
     @PostMapping("/")
     public ResponseEntity<String> signup(@Valid @RequestBody SignupDTO signupDTO){

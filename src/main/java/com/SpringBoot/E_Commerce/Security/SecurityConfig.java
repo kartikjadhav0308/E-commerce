@@ -39,6 +39,7 @@ public class SecurityConfig {
                         .requestMatchers(
                                 "/auth/**","/signup/**"
                         ).permitAll()
+                        .requestMatchers("/seller/**").hasRole("SELLER")
 
 
                         // Everything else requires authentication

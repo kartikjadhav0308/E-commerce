@@ -47,6 +47,7 @@ public class SignupService {
                     .password(passwordEncoder.encode(signupDTO.getUsername()))
                     .role(RoleEnum.SELLER)
                     .build();
+            signupRepository.save(signup);
             return "Signup of seller successfully";
         } catch (Exception e) {
             throw new RuntimeException(e);
